@@ -3,7 +3,7 @@
 
 ## Project 1
 
-## Project 2
+## Project 2: Heart rhythm classification from raw ECG signals
 
 We first used biosppy, neurokit2 and hrvanalysis to filter the ecg signals and extract features them. For each signal, we extracted the following features:
 - Peaks periodicity features, i.e. mean, std, min, max, etc. of differences between successive P, Q, R, S and T peak indices;
