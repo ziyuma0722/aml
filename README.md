@@ -42,7 +42,7 @@ We also did features selection by trying to
 
 For the classification, we tried different approaches: 
 - The different classifiers (with or without oversampling to overcome class imbalance), e.g. the ***LGBMClassifier***, the ***HistGradientBoostingClassifier***, the ***RandomForestClassifier***, and their combinations by ***StackingClassifier***.
-- LSTM and Feed Forward Neural Networks using different architectures and activation functions to do the classification.
+- Feed Forward Neural Networks using different architectures and activation functions to do the classification.
   
 The best model is using a single ***LGBMClassifier*** or ***HistGradientBoostingClassifier*** with oversampling after removing correlated features.
 
