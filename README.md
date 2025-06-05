@@ -1,7 +1,7 @@
-# aml
+# Advanced Machine Learning
 
 
-## Project 1
+## Project 1: Predict the age of a brain from MRI features
 
 We first remove outliers through:
 - data imputation
@@ -41,8 +41,8 @@ We also did features selection by trying to
 - select the best k features.
 
 For the classification, we tried different approaches: 
-- The different classifiers (with or without oversampling to overcome class imbalance), e.g. the LGBMClassifier, the HistGradientBoostingClassifier, the RandomForestClassifier, and their combinations by StackingClassifier.
+- The different classifiers (with or without oversampling to overcome class imbalance), e.g. the ***LGBMClassifier***, the ***HistGradientBoostingClassifier***, the ***RandomForestClassifier***, and their combinations by ***StackingClassifier***.
 - LSTM and Feed Forward Neural Networks using different architectures and activation functions to do the classification.
   
-The best model is using a single LGBMClassifier or HistGradientBoostingClassifier with oversampling after removing correlated features.
+The best model is using a single ***LGBMClassifier*** or ***HistGradientBoostingClassifier*** with oversampling after removing correlated features.
 
